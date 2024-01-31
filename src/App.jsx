@@ -1,3 +1,11 @@
+import LoginPage from "./LogInPage";
+import SignupPage from "./SignupPage";
+
 export default function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <LoginPage />
+      <SignupPage />
+    </div>
+  );
 }
