@@ -28,7 +28,7 @@ export default function ForgetPassword() {
           <p>Welcome back! Please enter your details.</p>
           <form className="login-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="email">Email address</label>
+              <label htmlFor="email">Email</label>
               <input
                 id="emailL"
                 name="email"
@@ -36,7 +36,7 @@ export default function ForgetPassword() {
                 autoComplete="email"
                 required
                 className="form-control"
-                placeholder="Email address"
+                placeholder="Entre your email"
                 value={formData.email}
                 onChange={handleChange}
               />

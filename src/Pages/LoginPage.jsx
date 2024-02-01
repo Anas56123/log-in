@@ -30,7 +30,7 @@ function LoginPage() {
           <p>Welcome back! Please enter your details.</p>
           <form className="login-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="email">Email address</label>
+              <label>Email</label>
               <input
                 id="emailL"
                 name="email"
@@ -38,13 +38,13 @@ function LoginPage() {
                 autoComplete="email"
                 required
                 className="form-control"
-                placeholder="Email address"
+                placeholder="Entre your email"
                 value={formData.email}
                 onChange={handleChange}
               />
             </div>
             <div className="form-group">
-              <label htmlFor="password">Password</label>
+              <label>Password</label>
               <input
                 id="passwordL"
                 name="password"
@@ -52,7 +52,7 @@ function LoginPage() {
                 autoComplete="current-password"
                 required
                 className="form-control"
-                placeholder="Password"
+                placeholder="Entre your password"
                 value={formData.password}
                 onChange={handleChange}
               />

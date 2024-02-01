@@ -49,7 +49,7 @@ function SignupPage() {
           <p>Welcome to Dass! Please enter your phone number</p>
           <form className="login-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="email">Email address</label>
+              <label>Email address</label>
               <input
                 id="emailS"
                 name="email"
@@ -63,7 +63,7 @@ function SignupPage() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="password">Password</label>
+              <label>Password</label>
               <input
                 id="passwordS"
                 name="password"
@@ -77,7 +77,7 @@ function SignupPage() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="name">Name</label>
+              <label>Name</label>
               <input
                 id="name"
                 name="name"
@@ -91,7 +91,7 @@ function SignupPage() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="phoneNumber">Phone Number</label>
+              <label>Phone Number</label>
               <input
                 id="phoneNumber"
                 name="phoneNumber"

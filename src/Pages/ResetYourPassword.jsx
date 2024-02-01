@@ -28,7 +28,7 @@ export default function ResetYourPassword() {
           <p>Welcome back! Please enter your details.</p>
           <form className="login-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="password">New password</label>
+              <label>New password</label>
               <input
                 id="new-password"
                 name="password"
@@ -42,7 +42,7 @@ export default function ResetYourPassword() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="password">Confirm new password</label>
+              <label>Confirm new password</label>
               <input
                 id="confirm-new-password"
                 name="password"
